@@ -2,11 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>EagerCrowTestNGFramwork</groupId>
-	<artifactId>EagerCrowTestNGFramwork</artifactId>
+	<groupId>CrowTestNGFramwork</groupId>
+	<artifactId>CrowTestNGFramwork</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>EagerCrowPOM</name>
-	<description>EagerCrowPOM</description>
+	<name>CrowPOM</name>
+	<description>CrowPOM</description>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
