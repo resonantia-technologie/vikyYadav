@@ -1,0 +1,24 @@
+{
+	"name": "John Doe",
+	"age": 30,
+	"address": {
+		"street": "123 Main St",
+		"city": "Anytown",
+		"postalCode": "123459"
+	},
+	"phoneNumbers": [
+		{
+			"type": "home",
+			"number": "123-456-7890"
+		},
+		{
+			"type": "mobile",
+			"number": "987-654-3210"
+		}
+		,{
+			"type": "mobile",
+			"number": "987-654-3210"
+		}
+	],
+	"email": "john.doe@example.com"
+}

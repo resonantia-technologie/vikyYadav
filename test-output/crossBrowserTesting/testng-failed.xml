@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [crossBrowserTesting]">
+  <parameter name="browser" value="firefox"/>
+  <test parallel="tests" name="ChromeTest(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNGDemo.ParallalExcutionInSelenium">
+        <methods>
+          <include name="selectAndOpenBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGDemo.ParallalExcutionInSelenium -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [crossBrowserTesting] -->
